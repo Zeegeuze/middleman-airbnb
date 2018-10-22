@@ -1,0 +1,25 @@
+i{
+  color: $red;
+}
+
+.container{
+  background-color: white;
+  height: 100vh;
+
+}
+
+.grey-box{
+  background-color: $light-gray;
+  padding: 150px 0px;
+  margin: 0px -15px;
+  h2{font-family: "Varela";
+  font-weight: bold;
+  font-size: 30px;}
+}
+
+.pictures{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
