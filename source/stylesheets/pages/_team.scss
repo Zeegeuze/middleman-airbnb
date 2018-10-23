@@ -5,6 +5,7 @@ i{
 .container{
   background-color: white;
   height: 100vh;
+  font-weight: 100vw;
 
 }
 
@@ -15,11 +16,19 @@ i{
   h2{font-family: "Varela";
   font-weight: bold;
   font-size: 30px;}
+  position: relative;
 }
 
 .pictures{
-  position: relative;
+
   width: 150px;
   height: 150px;
-  margin: 10px;
+
 }
+.horizonital-images{
+  position: absolute;
+  margin: 10px;
+  bottom: -150px;
+  text-align: center;
+}
+
